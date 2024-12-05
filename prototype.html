@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    // let myname="hitesh   "
+    // let mychai="chai    "
+
+    // console.log(myname.truelength);
+
+
+    let myheros = ["thore", "spiderman"]
+    let herosposer = {
+        thore: "hummer",
+        spiderman: "sling",
+
+        getSpiderPower: function () {
+            console.log(`spiderpower is ${this.spiderman}`);
+        }
+
+    }
+
+
+    // inheritence
+
+    const user = {
+        name: "chai",
+        email: "chai@gamil.com"
+    }
+
+
+
+
+    const teacher = {
+        makevideo: true
+    }
+    const teachingsupport = {
+        IsAvialable: false
+    }
+
+    const TAsupport = {
+        Fulltime: true,
+        makeassignment: "js assignment",
+        __proto__: teachingsupport
+
+    }
+    teacher.__proto__ = user
+
+
+    // modern syntax
+
+    Object.setPrototypeOf(teacher, teachingsupport)
+
+    // let anotherUser="chaiourcode   "
+    // String.prototype.truelength = function(){
+    // console.log(`${this}`);
+    // console.log(`this is true length: ${thids.trim().lenght}`);
+
+
+    // }
+
+    let anotherUsername = "ChaiAurCode     "
+
+    String.prototype.trueLength = function () {
+        console.log(`${this}`);
+        console.log(`True length is: ${this.trim().length}`);
+    }
+
+    anotherUsername.trueLength()
+
+</script>
+
+</html> -->
